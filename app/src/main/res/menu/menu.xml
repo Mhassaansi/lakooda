@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    home_icon-->
+<!--    @drawable/ic_home-->
+<!--    android:icon="@drawable/ic_television"-->
+    <item
+        android:id="@+id/home"
+        android:title=""
+        android:icon="@drawable/home_menu_click" />
+
+<!--    feed_icom-->
+<!--    android:icon="@drawable/ic_news_feed"-->
+    <item
+        android:id="@+id/feeds"
+        android:title=""
+        android:icon="@drawable/feeds_menu_click" />
+
+    <item
+        android:id="@+id/spacer_menu"
+        android:title="" />
+
+<!--    android:icon="@drawable/ic_notification"-->
+    <item
+        android:id="@+id/notify"
+        android:title=""
+        android:icon="@drawable/notify_menu_click" />
+
+<!--    android:icon="@drawable/ic_chat"-->
+    <item
+        android:id="@+id/chat"
+        android:title=""
+        android:icon="@drawable/chat_menu_click" />
+
+</menu>

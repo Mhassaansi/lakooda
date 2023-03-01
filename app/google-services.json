@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "254975712384",
+    "project_id": "lakoda-c6cfc",
+    "storage_bucket": "lakoda-c6cfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254975712384:android:d03c1d4b1eef1dcf1f5a65",
+        "android_client_info": {
+          "package_name": "com.fictivestudios.lakoda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254975712384-v3ljn1aknajmtf64nejpjdfsa01skm71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fictivestudios.lakoda",
+            "certificate_hash": "3261b68be0d0eebda646eda1db4327c4ff6a37d3"
+          }
+        },
+        {
+          "client_id": "254975712384-vu7b5979ino0ml0uomhlpe7a32cmm5vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrnKPZ1OaOOj9DNqJQXc88CgW7lDknWZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254975712384-vu7b5979ino0ml0uomhlpe7a32cmm5vt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "254975712384-1gte30jo6cehc982aegticsbse578nrd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fictivestudios.lakoda"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

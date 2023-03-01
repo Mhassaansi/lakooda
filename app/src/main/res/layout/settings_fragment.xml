@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".views.fragments.SettingsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginHorizontal="20dp"
+        >
+        <TextView
+            android:id="@+id/tv_push_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="@string/push_notification"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+        </TextView>
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sw_push"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:trackTint="@drawable/switch_track_selector"
+            android:checked="true"
+            app:thumbTint="@color/white"
+            app:layout_constraintRight_toRightOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+            >
+
+        </androidx.appcompat.widget.SwitchCompat>
+
+        <View
+            android:id="@+id/v_push"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@id/sw_push"
+            >
+
+        </View>
+
+
+        <View
+            android:id="@+id/v_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@id/tv_blocked"
+            ></View>
+        <TextView
+            android:id="@+id/tv_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="15dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="@string/change_pass"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v_privacy"
+            >
+
+        </TextView>
+        <ImageView
+            android:id="@+id/iv_arrow_right_privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/arrow_right_icon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v_privacy"
+            >
+
+
+        </ImageView>
+
+
+        <View
+            android:id="@+id/v_blocked"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@id/v_push"
+            ></View>
+        <TextView
+            android:id="@+id/tv_blocked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="15dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="Blocked Users"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v_blocked"
+            >
+
+        </TextView>
+        <ImageView
+            android:id="@+id/iv_arrow_right_blocked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/arrow_right_icon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v_blocked"
+            >
+
+
+        </ImageView>
+
+
+        <View
+            android:id="@+id/v_bundles"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@id/tv_privacy"
+            ></View>
+        <TextView
+            android:id="@+id/tv_bundles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="15dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="In App Purchase"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v_bundles"
+            >
+
+        </TextView>
+        <ImageView
+            android:id="@+id/iv_arrow_right_bundles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/arrow_right_icon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v_bundles"
+            >
+
+
+        </ImageView>
+
+        <View
+            android:id="@+id/v_del"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@id/tv_bundles"
+            ></View>
+
+        <TextView
+            android:id="@+id/tv_del_acc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="15dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="@string/delete_account"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v_del"
+            >
+
+        </TextView>
+        <ImageView
+            android:id="@+id/iv_arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/arrow_right_icon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v_del"
+            >
+
+
+        </ImageView>
+        <ProgressBar
+            android:id="@+id/pb_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            android:indeterminateTint="@color/white"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="@id/btn_logout"
+            app:layout_constraintRight_toRightOf="@id/btn_logout"
+            app:layout_constraintTop_toTopOf="@id/btn_logout"
+            app:layout_constraintBottom_toBottomOf="@id/btn_logout"
+            >
+
+        </ProgressBar>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/bg_main_btn"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/iv_switch"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/power_icon"
+                android:layout_marginRight="12dp"
+                app:layout_constraintRight_toLeftOf="@id/tv_logout"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                >
+
+            </ImageView>
+            <TextView
+                android:id="@+id/tv_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/logout"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                >
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
